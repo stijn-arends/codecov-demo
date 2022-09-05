@@ -1,6 +1,10 @@
 name: Frontend workflow
 
-on: [push, pull_request]
+# Only run when changes are made in web folder
+on:
+  push:
+    paths:
+      - 'web/**'
 
 jobs:
   build:
