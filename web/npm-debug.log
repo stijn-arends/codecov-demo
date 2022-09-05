@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   'C:\\Users\\stijn\\anaconda3\\envs\\codecov-demo\\Library\\lib\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'test' ]
+2 info using npm@1.4.12
+3 info using node@v0.12.18
+4 verbose run-script [ 'pretest', 'test', 'posttest' ]
+5 info pretest web@1.0.0
+6 info test web@1.0.0
+7 verbose unsafe-perm in lifecycle true
+8 info web@1.0.0 Failed to exec test script
+9 error web@1.0.0 test: `jest --collectCoverage`
+9 error Exit status 1
+10 error Failed at the web@1.0.0 test script.
+10 error This is most likely a problem with the web package,
+10 error not with npm itself.
+10 error Tell the author that this fails on your system:
+10 error     jest --collectCoverage
+10 error You can get their info via:
+10 error     npm owner ls web
+10 error There is likely additional logging output above.
+11 error System Windows_NT 10.0.22000
+12 error command "node" "C:\\Users\\stijn\\anaconda3\\envs\\codecov-demo\\Library\\lib\\node_modules\\npm\\bin\\npm-cli.js" "run" "test"
+13 error cwd C:\Users\stijn\Documents\python_related\python_features\codecov-demo\web
+14 error node -v v0.12.18
+15 error npm -v 1.4.12
+16 error code ELIFECYCLE
+17 verbose exit [ 1, true ]
