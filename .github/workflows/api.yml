@@ -1,6 +1,11 @@
 name: API workflow
 
-on: [push, pull_request]
+# on: [push, pull_request]
+# With this only the test are run when files in api have changed
+on:
+  push:
+    paths:
+      - 'api/**'
 
 jobs:
   build:
